@@ -10,7 +10,7 @@
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "/bg.jpg"
   },
   "installedApps": [
     "appstore",
@@ -97,21 +97,17 @@
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
+      "id": "kongqiang-chat-1",
+      "app": "wechat",
+      "title": "亓宏刚",
+      "participants": ["owner", "test-contact"],
       "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
+        { "id": "m1", "body": "货拿到了吗？", "senderId": "test-contact" },
+        { "id": "m2", "body": "出了点岔子，有条子跟着我。", "senderId": "owner" },
+        { "id": "m3", "body": "老地方见，把东西藏好。", "senderId": "test-contact" }
       ]
-    },
+    }
+  ],
     {
       "id": "test-chat-wechat",
       "app": "wechat",
